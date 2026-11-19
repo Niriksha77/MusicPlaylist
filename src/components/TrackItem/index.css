@@ -1,0 +1,70 @@
+.track-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.track-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.track-thumbnail {
+  width: 140px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.track-text-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-name {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.track-genre {
+  color: #3b82f6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.track-actions-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-right: 16px;
+}
+
+.track-duration {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
